@@ -52,23 +52,23 @@ window.addEventListener("scroll", function(event) {
       $('.navheader').removeClass('nav-coll');
     }
 
-    if(top < aboutPos.top){
+    if(top < aboutPos.top-1){
       $('.nav-main ul a:nth-child(1)').addClass('nav-hover');
     }else {
       $('.nav-main ul a:nth-child(1)').removeClass('nav-hover');
     }
 
-    if(top >= aboutPos.top && top < skillPos.top){
+    if(top >= aboutPos.top-1 && top < skillPos.top-1){
       $('.nav-main ul a:nth-child(2)').addClass('nav-hover');
     }else {
       $('.nav-main ul a:nth-child(2)').removeClass('nav-hover');
     }
-    if(top >= skillPos.top && top < contactPos.top){
+    if(top >= skillPos.top-1 && top < contactPos.top-1){
       $('.nav-main ul a:nth-child(4)').addClass('nav-hover');
     } else {
       $('.nav-main ul a:nth-child(4)').removeClass('nav-hover');
     }
-    if(top >= contactPos.top){
+    if(top >= contactPos.top-1){
       $('.nav-main ul a:nth-child(5)').addClass('nav-hover');
     } else {
       $('.nav-main ul a:nth-child(5)').removeClass('nav-hover');
