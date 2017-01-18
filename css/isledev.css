@@ -32,16 +32,16 @@ p {
       line-height: 1.6; } }
 
 a {
-  color: #9D00FF;
+  color: #42DCA3;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #5e0099; }
+    color: #1d9b6c; }
 
 .nav-hover {
-  border-bottom: 3px inset #9D00FF; }
+  border-bottom: 3px inset #42DCA3; }
 
 @media (min-width: 768px) {
   .navheader {
@@ -71,7 +71,7 @@ a {
       display: inline-block; }
       .nav-main li:hover {
         /* FF3.6-15 */
-        border-bottom: 3px inset #9D00FF; }
+        border-bottom: 3px inset #42DCA3; }
     .nav-main a {
       display: inline-block;
       text-decoration: none; }
@@ -80,16 +80,16 @@ a {
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em; }
     .nav-main ul a:nth-child(3) li:hover {
-      border-bottom: 3px inset #9D00FF; } }
+      border-bottom: 3px inset #42DCA3; } }
 .hidden {
   display: none; }
 
 .bars-selected {
-  border: 1px solid #9D00FF;
+  border: 1px solid #42DCA3;
   border-radius: 3px;
   opacity: 0.4;
   color: black;
-  background-color: #9D00FF; }
+  background-color: #42DCA3; }
 
 .bars {
   margin-left: 3%;
@@ -97,11 +97,11 @@ a {
   cursor: pointer; }
   .bars:hover, .bars:focus {
     opacity: 0.9;
-    border: 1px solid #9D00FF;
+    border: 1px solid #42DCA3;
     border-radius: 3px;
     outline: none;
     color: black;
-    background-color: #9D00FF; }
+    background-color: #42DCA3; }
 
 @media (max-width: 767px) {
   .navheader {
@@ -121,7 +121,7 @@ a {
       list-style: none; }
     .nav-main li:hover {
       /* FF3.6-15 */
-      border-bottom: 3px inset #9D00FF; }
+      border-bottom: 3px inset #42DCA3; }
     .nav-main a {
       text-decoration: none; } }
 .intro {
@@ -244,14 +244,14 @@ a {
   border-radius: 50px; }
 
 .btn-default {
-  border: 1px solid #9D00FF;
-  color: #9D00FF;
+  border: 1px solid #42DCA3;
+  color: #42DCA3;
   background-color: transparent; }
   .btn-default:hover, .btn-default:focus {
-    border: 1px solid #9D00FF;
+    border: 1px solid #42DCA3;
     outline: none;
     color: black;
-    background-color: #9D00FF; }
+    background-color: #42DCA3; }
 
 footer {
   padding: 50px 0; }
