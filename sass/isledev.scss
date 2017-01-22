@@ -335,6 +335,18 @@ a {
     }
 }
 
+.skill-btn {
+    height: 15em;
+    width: 15em;
+    padding : 3em;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border-radius: 50px;
+}
+
+
 footer {
     padding: 50px 0;
     p {
